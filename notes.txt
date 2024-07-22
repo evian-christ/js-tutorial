@@ -1,0 +1,11 @@
+Things to learn in advance
+- HTML: the object that javascript directly controls
+- CSS
+
+Things that JS can do:
+- webpage scripting: DOM (to look up)
+- server side scripting: node.js
+- Adobe PDF ???
+- Unity Game Engine
+
+
