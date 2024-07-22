@@ -11,3 +11,12 @@ Things that JS can do:
 Javascript is made to dynamically control html and css.
 
 You can also run JS scripts from developer tools in Chrome in Console tab
+
+Calculations
+
+Math.pow(3,2); is 3 with power of 2 which is 9
+Math.round(10.6); is 11 which is 10.6 rounded
+Math.ceil(10.2); is 11 which is 10.2 rounded up
+Math.floor(10.7); is 10 which is 10.7 rounded down
+Math.sqrt(9); is 3 which is square root of 9
+Math.random(); returns random number between 0 and 1.0
