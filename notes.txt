@@ -8,4 +8,6 @@ Things that JS can do:
 - Adobe PDF ???
 - Unity Game Engine
 
+Javascript is made to dynamically control html and css.
 
+You can also run JS scripts from developer tools in Chrome in Console tab
