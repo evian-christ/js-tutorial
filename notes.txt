@@ -20,3 +20,11 @@ Math.ceil(10.2); is 11 which is 10.2 rounded up
 Math.floor(10.7); is 10 which is 10.7 rounded down
 Math.sqrt(9); is 3 which is square root of 9
 Math.random(); returns random number between 0 and 1.0
+
+typeof x return type of x
+
+to include reverse comma in a string, use escape
+'she's cute' (x)
+'she\'s cute' (O)
+
+"hello world".length return length of "hello world" which is 11
