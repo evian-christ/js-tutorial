@@ -28,3 +28,11 @@ to include reverse comma in a string, use escape
 'she\'s cute' (O)
 
 "hello world".length return length of "hello world" which is 11
+
+The difference between == and ===
+
+alert(1 == '1')     // true
+alert(1 === '1')    // false
+
+same value different type
+
