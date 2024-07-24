@@ -63,4 +63,9 @@ if (null) // false
 if (NaN) // false
 
 
+Loops
+
+while (condition) {
+    code to run over and over
+}
 
