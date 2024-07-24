@@ -37,5 +37,13 @@ alert(1 === '1')    // false
 == returns true for same value different type
 === returns true only for same value same type
 
+if () {
+    a
+} else if () {
+    b
+} else {
+    c
+}
+
 
 
