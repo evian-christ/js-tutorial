@@ -34,5 +34,8 @@ The difference between == and ===
 alert(1 == '1')     // true
 alert(1 === '1')    // false
 
-same value different type
+== returns true for same value different type
+=== returns true only for same value same type
+
+
 
