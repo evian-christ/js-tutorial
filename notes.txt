@@ -51,6 +51,16 @@ if () {
 || = or
 ! = not
 
+true and false are booleans but there are alternative to booleans.
+
+if (1) // true
+if (0) // false
+if ('') // false
+if (undefined) // false
+var a;
+if (a) // false
+if (null) // false
+if (NaN) // false
 
 
 
