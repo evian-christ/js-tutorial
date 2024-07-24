@@ -73,3 +73,5 @@ for (initialising, condition, execution) {
     code to run over and over
 }
 
+break = stop the loop
+continue = continue the loop (immediately) (code below continue is skipped)
