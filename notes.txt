@@ -129,3 +129,9 @@ Removing elements:
 colours.shift(); // remove the first element of an array; colours = ['Blue', 'Black']
 
 colours.pop(); // remove the last element of an array; colours = ['Red', 'Blue']
+
+Ordering:
+
+colours.sort(); // sort the element with adequate order; colours = ['Black', 'Blue', 'Red']
+
+colours.reverse(); // sort the element in reverse order; colours = ['Black', 'Blue', 'Red']
