@@ -104,3 +104,23 @@ var numbering = function () {
         i++;
     }
 }
+
+Array
+
+Syntax
+
+var colours = ['Red', 'Blue', 'Black']
+colours[0] // Red
+
+colours.length // 3
+
+Adding elements:
+
+colours.push('Green') // colours = ['Red', 'Blue', 'Black', 'Green']
+
+colours.unshift('Green') // colours = ['Green', 'Red', 'Blue', 'Black']
+
+colours.concat(['Green', 'White']) // colours = ['Red', 'Blue', 'Black', 'Green', 'White']
+
+colours.splice(2, 1, "Green") // colours = ['Red', 'Blue', 'Green'] (insert at position 2, erase 1 afterwards, input)
+
