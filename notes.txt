@@ -124,3 +124,8 @@ colours.concat(['Green', 'White']) // colours = ['Red', 'Blue', 'Black', 'Green'
 
 colours.splice(2, 1, "Green") // colours = ['Red', 'Blue', 'Green'] (insert at position 2, erase 1 afterwards, input)
 
+Removing elements:
+
+colours.shift(); // remove the first element of an array; colours = ['Blue', 'Black']
+
+colours.pop(); // remove the last element of an array; colours = ['Red', 'Blue']
