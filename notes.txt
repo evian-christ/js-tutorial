@@ -75,3 +75,12 @@ for (initialising, condition, execution) {
 
 break = stop the loop
 continue = continue the loop (immediately) (code below continue is skipped)
+
+Functions
+
+Syntax:
+
+function Name(arguments, ...) {
+    body
+    return outcome
+}
