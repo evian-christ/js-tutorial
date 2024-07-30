@@ -158,3 +158,15 @@ How to fetch info from dictionaries:
 grades['Adam'] will return 10
 grades.Adam will return 10 as well
 
+Dictionaries in Loops
+
+var numbers = {'griezmann': 7, 'correa': 10, 'oblak': 13}
+
+for (key in numbers) {
+    document.write("key: " + key + ", value: " + numbers[key] + "<br />");
+}
+
+results:
+key: griezmann, value: 7
+key: correa, value: 10
+key: oblak, value: 13
