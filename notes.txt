@@ -135,3 +135,26 @@ Ordering:
 colours.sort(); // sort the element with adequate order; colours = ['Black', 'Blue', 'Red']
 
 colours.reverse(); // sort the element in reverse order; colours = ['Black', 'Blue', 'Red']
+
+Dictionary
+
+How to create one:
+var grades = {'Adam': 10, 'Ben': 6, 'Conor': 80};
+
+Adam is key, 10 is value.
+
+Another way to create dictionary:
+var grades = {};
+grades['Adam'] = 10;
+grades['Ben'] = 6;
+grades['Conor'] = 80;
+
+var grades = new Object();
+grades['Adam'] = 10;
+grades['Ben'] = 6;
+grades['Conor'] = 80;
+
+How to fetch info from dictionaries:
+grades['Adam'] will return 10
+grades.Adam will return 10 as well
+
