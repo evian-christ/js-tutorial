@@ -170,3 +170,16 @@ results:
 key: griezmann, value: 7
 key: correa, value: 10
 key: oblak, value: 13
+
+How to use dictionary to use JS in object oriented way:
+
+var numbers = {
+    'list': {'griezmann': 7, 'correa': 10, 'oblak': 13},
+    'show': function () {
+        for (var name in this.list) {
+            document.write(name + ': ' + this.list[name] + <br />);
+        }
+    }
+}
+
+numbers.show();
