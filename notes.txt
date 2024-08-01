@@ -191,13 +191,27 @@ variable_name = "asdf";     // global variable
 
 Examples
 
-var new_player = "le_normand"
+var new_player = "le_normand";
 
 function new_transfer() {
-    var new_player = "dovbyk"
+    var new_player = "dovbyk";
 }
 
-document.write(new_player)
+new_transfer();
+document.write(new_player);
 
 // outcome is "le_normand" because atletico signed le_normand but not dovbyk, but also because the local variable declared inside the function is only effective inside the function
 
+What if the variable inside the function is declared without the 'var'?
+
+var new_player = "le_normand";
+
+function new_transfer() {
+    new_player = "dovbyk";
+}
+
+new_transfer();
+document.write(new_player);
+
+// outcome is "dovbyk", when clearly the deal has failed and dovbyk is likely to sign for Roma. It's because without 'var' keyword, variables are regarded as global variable.
+// global variables has to be used carefully, since it can cause complication. Use only when you fully understand what you are doing!
