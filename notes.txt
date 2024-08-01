@@ -183,3 +183,21 @@ var numbers = {
 }
 
 numbers.show();
+
+Scope
+
+var variable_name = "asdf"; // local variable
+variable_name = "asdf";     // global variable
+
+Examples
+
+var new_player = "le_normand"
+
+function new_transfer() {
+    var new_player = "dovbyk"
+}
+
+document.write(new_player)
+
+// outcome is "le_normand" because atletico signed le_normand but not dovbyk, but also because the local variable declared inside the function is only effective inside the function
+
