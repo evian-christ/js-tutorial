@@ -215,3 +215,21 @@ document.write(new_player);
 
 // outcome is "dovbyk", when clearly the deal has failed and dovbyk is likely to sign for Roma. It's because without 'var' keyword, variables are regarded as global variable.
 // global variables has to be used carefully, since it can cause complication. Use only when you fully understand what you are doing!
+
+more Examples
+
+// "var" in JS only provides scope for functions. This is different from other languages where usually it's provided for inside brackets or indentations, not only functions.
+
+for(var i = 0; i < 1; i++) {
+    var name = "hello";
+}
+alert(name);
+
+// above codes prints "hello", which shows the local variables are only applied to functions.
+
+for(int i = 0; i < 1; i++) {
+    String name = "hello";
+}
+System.out.println(name);
+
+// above code snippet is java equipvalent of the previous one. Java won't allow it, since local variable is declared inside for loop, but it's calling name outside of the loop.
