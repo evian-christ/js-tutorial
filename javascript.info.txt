@@ -1,0 +1,28 @@
+1. An Introduction to JavaScript
+
+> What is JavaScript?
+    JavaScript are usually run in the browser, by JavaScript engines.
+    Different JS engines codenames:
+        - V8: Chrome, Opera, Edge
+        - SpiderMonkey: Firefox
+        - "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
+
+    Today, JS can execute not only in the browser, but also on the server.
+
+> What can in-browser JS do?
+    Modern JS is a safe programming language.
+    It does not provide low-level access to memery or the CPU.
+
+    JS's capability greatly depend on the environment it's running in.
+    For instance, Node.js supports functions that allow JS to read/write arbitrary files,
+    perform network requests etc.
+    (which are tasks to be done by communicating with the server)
+
+    in-browser JS can do:
+        - Add new HTML to the page, change the existing content, modify styles.
+        - React to user actions, run on mouse clicks, pointer movements, key presses.
+        - Send requests over the network to remote servers, download and upload files (AJAX, COMET)
+        - Get and set cookies, ask questions to the visitor, show messages.
+        - Remember the data on teh client-side ("local storage").
+
+
