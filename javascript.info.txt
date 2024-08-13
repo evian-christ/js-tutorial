@@ -25,4 +25,9 @@
         - Get and set cookies, ask questions to the visitor, show messages.
         - Remember the data on teh client-side ("local storage").
 
+    in-browser JS cannot do:
+        - JS on a webpage may not read/write files on the hard disk, no direct access to OS functions.
+        - Different tabs/windows generally do not know about each other
+
+
 
