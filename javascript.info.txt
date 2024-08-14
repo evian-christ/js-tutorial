@@ -29,5 +29,26 @@
         - JS on a webpage may not read/write files on the hard disk, no direct access to OS functions.
         - Different tabs/windows generally do not know about each other
 
+2. Variables
+
+    > variables are declared with 'let' statement.
+        let message = "Hello";
+    
+    > declaring twice triggers an error.
+        let message = "Hello";
+        let message = "World";
+        # SyntaxError: 'message' has already been declared
+
+    > There are two limitations on variable names in JS:
+        1. The name must contain only letters, digits, or the symbol $ and _.
+        2. The first character must not be a digit.
+
+    > constants are declared with 'const' statement.
+        const birthday = "22.12.1997";
+
+    > constants cannot be reassigned.
+        birthday = "01.01.2000"
+        # error, can't reassign the constant!
+
 
 
