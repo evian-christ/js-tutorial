@@ -50,5 +50,24 @@
         birthday = "01.01.2000"
         # error, can't reassign the constant!
 
+3. Data Types
+
+    > JavaScript is dynamically typed.
+        let message = "hello";  # string
+        message = 123;          # number
+
+    <Number>
+    > number type represents both integer and float.
+    > some special numeric values: Infinity, -Infinity and NaN.
+        alert(1/0);         # Infinity
+        alert(Infinity);    # Infinity
+    > NaN represents a computational error. It is a result of an incorrect or an undefined operation.
+        alert("asdf"/2);    # NaN, such division is erroneous
+        alert(NaN+1);       # NaN
+
+    
+
+    
+
 
 
