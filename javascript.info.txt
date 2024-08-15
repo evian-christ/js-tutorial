@@ -65,9 +65,20 @@
         alert("asdf"/2);    # NaN, such division is erroneous
         alert(NaN+1);       # NaN
 
-    
+    <BigInt>
+    > JS number type cannot safely represent integer values larger than
+        ((2^53)-1) or smaller than -((2^53)-1).
+    > A BigInt type was introduced relatively recently to represent longer integers.
+    > A BigInt value is created by appending n to the end of an integer
+        const bigInt = 123214214214214329953928493753295893285n;
 
-    
+    <String>
+    > Strings in JS must be surrounded by quotes.
+        let str = "Hello";
+        let str2 = 'Yerrr';
 
-
-
+    > Double quotes(") and Single quotes(') are used for normal strings.
+    > Backticks(`) are extended functionality quotes. eg. embedding variables
+        let name = "John";
+        alert(`My name is ${name}!`); # My name is John
+        alert(`the result is ${1+1}`); # the result is 2
