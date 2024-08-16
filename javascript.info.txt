@@ -105,3 +105,11 @@
         typeof 10n          # "BigInt"
         typeof true         # "boolean"
         typeof "asdf"       # "string"
+
+4. Interaction: alert, prompt, confirm
+    > alert shows a message and waits for the user to press OK.
+        alert("Hello");
+
+
+    > prompt accepts two arguments: title and default value for the input
+    
