@@ -82,3 +82,26 @@
         let name = "John";
         alert(`My name is ${name}!`); # My name is John
         alert(`the result is ${1+1}`); # the result is 2
+
+    <Boolean>
+    > Boolean values can come as a result of comparisons
+        let isGreater = 4 > 1;
+        alert(isGreater); # true
+
+    <null>
+    > null value does not belong to any of the types above.
+    > In JS, null is a special value which represents "nothing", or "empty"
+
+    <undefined>
+    > undefined is also a type of its own, just like null.
+    > the meaning of undefined is "value is not assigned".
+        let age;
+        alert(age); # shows "undefined"
+    
+    <typeof>
+    > typeof operator returns the type of the operand.
+        typeof undefinted   # "undefined"
+        typeof 0            # "number"
+        typeof 10n          # "BigInt"
+        typeof true         # "boolean"
+        typeof "asdf"       # "string"
