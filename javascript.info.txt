@@ -107,6 +107,7 @@
         typeof "asdf"       # "string"
 
 4. Interaction: alert, prompt, confirm
+
     > alert shows a message and waits for the user to press OK.
         alert(text);
 
@@ -122,6 +123,48 @@
         The result is true if OK is pressed, and false otherwise.
 
         let over18 = confirm("Are you over 18?")
+
+5. Type Conversions
+
+    > String conversion
+        String(value) will convert value to a string.
+        
+        let value = true;
+        alert(typeof value); # boolean
+
+        value = String(value);
+        alert(typeof value); # string
+
+    > Numeric conversion
+        Numeric conversion in mathematical functions and expressions happens automatically.
+        e.g. alert("6"/"2"); # 3, strings are converted to numbers automatically.
+
+        Number(value) will convert value to a number.
+        
+        let str = "123";
+        alert(typeof str); # string
+
+        let num = Number(str);
+        alert(typeof num); # number
+
+        If the string is not a valid number, the result of such conversion is NaN.
+
+        let num = Number("asdf");
+        alert(num); # NaN, conversion failed
+
+        Numeric conversion rules:
+            undefined       NaN
+            null            0
+            true and false  1 and 0
+            string          whitespaces from start and end are removed. If the remaining string is empty, it returns 0. An error gives NaN.
+
+    > Boolean conversion
+        Boolean(1); # true
+        Boolean(0); # false
+
+        Boolean("asdf"); # true
+        Boolean(""); # false
+
 
 
 
