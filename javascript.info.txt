@@ -116,4 +116,13 @@
         1. title is the text to show the user.
         2. default is an optional parameter which is a default value of the input.
 
+        let name = prompt("What is your name?", "Your Name")
+
+    > confirm shows a modal window with a question and two buttons: OK and Cancel.
+        The result is true if OK is pressed, and false otherwise.
+
+        let over18 = confirm("Are you over 18?")
+
+
+
     
