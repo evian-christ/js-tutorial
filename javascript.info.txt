@@ -108,8 +108,12 @@
 
 4. Interaction: alert, prompt, confirm
     > alert shows a message and waits for the user to press OK.
-        alert("Hello");
-
+        alert(text);
 
     > prompt accepts two arguments: title and default value for the input
+        prompt(title, [default]); # square bracket around a argument denotes that it is optional.
+
+        1. title is the text to show the user.
+        2. default is an optional parameter which is a default value of the input.
+
     
