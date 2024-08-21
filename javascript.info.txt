@@ -219,6 +219,35 @@
 
         alert(+"3" + +true); # since the unary + has higher precedence, 4
 
+    > Assignment
+        Note that = is also an operator (with low precedence, that's why all calculations are first)
+
+        The fact of = being an operator, has an interesting implication.
+
+        The call x = value writes the value into x and then returns it!
+
+        let a = 1;
+        let b = 2;
+        let c = 3 - (a = b + 1);
+        alert(a); # 3
+        alert(c); # 0
+
+        in the third line, a = b + 1 not only assign b+1 to a, but also returns the value of a.
+            > c = 3 - (a = b + 1);
+            > c = 3 - (a = 3);
+            > c = 3 - (3);
+            > c = 0;
+
+        Another interesting usage, called Chaining assignments:
+
+        let a, b, c;
+
+        a = b = c = 4;
+        
+        alert(a); # 4
+        alert(b); # 4
+        alert(c); # 4
+
         
 
         
