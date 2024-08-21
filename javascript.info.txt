@@ -165,7 +165,19 @@
         Boolean("asdf"); # true
         Boolean(""); # false
 
+6. Basic operations
 
+    > Remainder %
+        The result of a % b is the remainder of the integer division of a by b.
+
+        alert(5 % 2); # 1
+        alert(8 % 3); # 2
+
+    > Exponentiation **
+        a ** b = a to the power of be
+
+        alert(2 ** 2); # 4
+        alert(2 ** 3); # 8
 
 
     
