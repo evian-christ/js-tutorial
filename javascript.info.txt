@@ -196,6 +196,31 @@
             alert(6 - '2'); # 4, converts '2' to a number
             alert('6' / '2'); # 3, converts both to numbers
 
+    > Numeric conversion with unary +
+        The unary + operator doesn't do anything to numbers.
+        But applied to any other types, it converts them to a number.
+            let x = 1;
+            alert(+x); # 1
+
+            let x = -2;
+            alert(+x); # -2
+
+            alert(+true); # 1
+            alert(+""); # 0
+
+    > Operator precedence
+        If an expression has more than one operator, the execution order depends on their precedence.
+        (default priority order of operators)
+
+        The precedence we all learn from school:
+        1 + 2 * 2: we know multiplication is calculated first then comes plus.
+
+        One thing to remember is that unary operators are higher than corresponding binary ones.
+
+        alert(+"3" + +true); # since the unary + has higher precedence, 4
+
+        
+
         
         
     
