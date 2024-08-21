@@ -179,5 +179,23 @@
         alert(2 ** 2); # 4
         alert(2 ** 3); # 8
 
+    > String concatenation with +
+        When + is applied to strings, it concatenates them:
+            let str = "Chan" + "Kim";
+            alert(str); # ChanKim
 
+        Note that if any of the operands is a string, then the other one is converted to a string.
+            alert('1' + 2); # '12'
+
+        Here's another example:
+            alert(2 + 2 + '1'); # '41' not '221'
+            alert('2' + 2 + 1); # '221' not '23'
+
+        binary + is the only operator that works with string in such a way.
+        other arithmetic operators work only with numbers and will convert strings to numbers.
+            alert(6 - '2'); # 4, converts '2' to a number
+            alert('6' / '2'); # 3, converts both to numbers
+
+        
+        
     
