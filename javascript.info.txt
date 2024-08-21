@@ -248,6 +248,22 @@
         alert(b); # 4
         alert(c); # 4
 
+    > Shorten expressions
+        let n = 2;
+        n += 5; # n = 7
+
+        let x = 2;
+        x *= 3 + 5; # right part evaluated first, same as n *= 8
+
+        let count = 2;
+        count++;
+        alert(count); # 3
+
+        count--;
+        alert(count); # 2
+
+        
+
         
 
         
