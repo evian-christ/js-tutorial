@@ -299,6 +299,20 @@
         alert(2 == 1); # false
         alert(2 != 1); # true
 
+    > String comparison
+        alert('Z' > 'A'); # true
+        alert('Glow' > 'Glee'); # true
+        alert('Bee' > 'Be'); # ture
+    
+        The algorithm to compare two strings:
+        1. Compare the first character of both strings.
+        2. If the first character from the first string is greater or less,
+            then the first string is greater or less than the second.
+        3. Otherwise, if both strings' first characters are the same, compare the second the same way.
+        4. Repeat until the end of the strings.
+        5. If both strings end at the same length, then they are equal.
+            Otherwise, the longer string is greater.
+
 
         
 
