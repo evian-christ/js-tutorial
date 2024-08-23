@@ -287,6 +287,18 @@
 
         alert(a); # 7, as it only returns the last one.
 
+7. Comparisons
+    > Basics
+        Greater/less than: a > b, a < b.
+        Greater/less than or equals: a >= b, a <= b.
+        Equals: a == b, '==' is comparing, while '=' is assigning.
+        Not equals: a != b.
+        
+    > Result of a comparison is a boolean.
+        alert(2 > 1); # true
+        alert(2 == 1); # false
+        alert(2 != 1); # true
+
 
         
 
