@@ -302,7 +302,7 @@
     > String comparison
         alert('Z' > 'A'); # true
         alert('Glow' > 'Glee'); # true
-        alert('Bee' > 'Be'); # ture
+        alert('Bee' > 'Be'); # true
     
         The algorithm to compare two strings:
         1. Compare the first character of both strings.
