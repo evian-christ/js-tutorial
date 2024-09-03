@@ -320,6 +320,22 @@
 
         For boolean values, true becomes 1, and false becomes 0.
 
+    > Strict equality
+        A strict equality operator === checks the equality without type conversion.
+
+        alert(0 == false); // true, false is converted to 0
+        alert(0 === false); // false, no type conversion
+
+    > Comparison of null and undefined
+        alert(null == undefined); // true, special rule that they equal each other
+        alert(null === undefined); // false
+
+    > How to avoid problems
+        Be careful with comparing with undefined/null
+        Don't use comparisons > < >= <= with a variable that may be null/undefined.
+
+        
+
         
 
         
