@@ -313,6 +313,12 @@
         5. If both strings end at the same length, then they are equal.
             Otherwise, the longer string is greater.
 
+    > Comparison of different types
+        When comparing values of different types, JS converts the values to numbers.
+        alert('2' > 1); // true, '2' converted to number
+        alert('01' == 1)l // true, '01' converted to number
+
+        For boolean values, true becomes 1, and false becomes 0.
 
         
 
