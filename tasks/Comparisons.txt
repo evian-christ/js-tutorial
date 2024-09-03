@@ -1,0 +1,9 @@
+tasks
+
+1   true
+2   false (p is later than a)
+3   false (type conversion to number, then false)
+4   true (special rule, undefined == null)
+5   false (strict equality)
+6   true (null is 0 converted, "\n0\n" is 0 converted)
+7   false (no type conversion with strict equality)
