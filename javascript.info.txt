@@ -363,7 +363,7 @@
     
 9. Logical operators   
     
-    > || is a or operator
+    > || is an OR operator
 
         let result = value1 || value2 || value3;
 
@@ -371,10 +371,13 @@
             if not true, then it will move on to value2, and if it's true, that's what returned.
             if none of the values are true, the last value is going to be the one returned.
 
-    
+    > && is an AND operator
 
-        
+        let result = value1 && value2 && value3;
 
+    > && will evaluate the expression from left to right, and returns the first falsy value, or if none found, return the last value.
+
+    > ! is a NOT operator. It does the following:
+        1. Converts the operand to boolean type.
+        2. Returns the inversed value.
         
-        
-    
