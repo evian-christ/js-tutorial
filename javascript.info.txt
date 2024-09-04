@@ -334,6 +334,32 @@
         Be careful with comparing with undefined/null
         Don't use comparisons > < >= <= with a variable that may be null/undefined.
 
+8. Conditional Branching
+>   > if statement
+        if (condition) execution;
+        if (condition) {
+            execution;
+        } else if (condition) {
+            execution;
+        } else {
+            execution;
+        }
+    
+    > ? operand
+        see below block of code:
+            let accessRight;
+            let age = prompt("What's your age?", '');
+
+            if (age > 18) {
+                accessRight = true;
+            } else {
+                accessRight = false;
+            }
+
+        it can be written as:
+            let accessRight = (age > 18) ? true : false;
+
+        (condition) ? execution when true : execution when false
         
 
         
