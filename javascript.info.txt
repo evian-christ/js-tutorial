@@ -360,7 +360,18 @@
             let accessRight = (age > 18) ? true : false;
 
         (condition) ? execution when true : execution when false
-        
+    
+9. Logical operators   
+    
+    > || is a or operator
+
+        let result = value1 || value2 || value3;
+
+    > || will evaluate the expression from left to right, and if the value1 is true, the value1 is return in its original form.
+            if not true, then it will move on to value2, and if it's true, that's what returned.
+            if none of the values are true, the last value is going to be the one returned.
+
+    
 
         
 
