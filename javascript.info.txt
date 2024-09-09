@@ -380,4 +380,19 @@
     > ! is a NOT operator. It does the following:
         1. Converts the operand to boolean type.
         2. Returns the inversed value.
+
+10. Operator ??
+
+    > The result of a ?? b is, if a is defined, then a. Otherwise, it's b.
+
+    > We can rewrite result = a ?? b like below.
+        result = (a !== null && a !== undefined) ? a : b;
+
+    > Use cases
+        let user;
+        alert(user ?? "Anonymous"); # Anonymous since user is undefined
+        user = "John";
+        alert(user ?? "Anonymous"); # John since user is defined
+
+    > It's forbidden to use it with || or && without explicit parentheses.
         
