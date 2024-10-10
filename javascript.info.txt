@@ -395,4 +395,21 @@
         alert(user ?? "Anonymous"); # John since user is defined
 
     > It's forbidden to use it with || or && without explicit parentheses.
-        
+
+11. Loops: while and for
+
+    > While loop
+        curly braces are not required; so you can do
+            while (i) alert(i--);
+
+        do...while loop is the same as while loop but the action comes before.
+        the body will be executed once no matter what.
+
+    > For loop
+        for (begin; condition; step) {
+            // loop body
+        }
+
+        for (let i=0; i < 3; i++) {
+            alert(i);
+        }
