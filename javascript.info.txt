@@ -413,3 +413,36 @@
         for (let i=0; i < 3; i++) {
             alert(i);
         }
+
+        Any part of for loop arguments can be skipped.
+        let i = 0;
+        for (; i<3; i++) {
+            ...
+        }
+
+        for (; i<3;) {
+            i++;
+        }
+
+        for (;;) {
+            #infinite loop
+        }
+
+    > Breaking the loop
+        1. break
+        while (~) {
+            if (~) break;
+        }
+
+        when the condition is met, the loop will stop.
+
+        2. continue
+        for (let i=0; i<10; i++) {
+            if (i%2 == 0) continue;
+
+            alert(i);
+        }
+
+        continue skips the current iteration and continue the loop
+        this will print only odd numbers
+
