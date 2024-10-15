@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        let n = prompt("What's your n?", 10);
+
+        primes: for (let i=2; i<=n; i++) {
+             for (let j=2; j<i; j++) {
+                document.write(i.toString() + "," + j.toString() + "=" + i%j.toString() + "\n\n\n")            
+                if (i%j == 0) {
+                    continue primes;
+                }
+             }
+             alert(i);
+        }
+    </script>
+</body>
