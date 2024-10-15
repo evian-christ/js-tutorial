@@ -444,4 +444,24 @@
         }
 
         continue skips the current iteration and continue the loop
-        this will print only odd numbers
+        this will print only odd 
+        
+    > Labels for break & continue
+
+        Sometimes we need to break multiple loops at once,
+        but break only stop the most inner loop.
+
+        A label is an id for loops.
+
+        labelName: for (..;..;..) {
+            ...
+        }
+
+        For example:
+            outer: for (let i=0; i<3; i++) {
+                for (let j=0; j<3; j++) {
+                    if (...) break outer;
+                }
+            }
+        
+        The above break will break the whole loop.
