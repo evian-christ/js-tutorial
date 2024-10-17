@@ -507,4 +507,10 @@
 
         We need break statement.
 
+        > We can also group cases:
+            case 'Cha':
+            case 'Chang':
+                alert("You're wrong!");
+                break;
         
+
