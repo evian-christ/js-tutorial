@@ -513,4 +513,46 @@
                 alert("You're wrong!");
                 break;
         
+13. functions
 
+    > Function declaration
+
+        function name(param1, param2, ... , paramN) {
+            # body
+        }
+
+    > Default values of parameters
+        
+        let's say there's a function like below:
+
+        function showMsg(from) {
+            alert(from + ": Hello!");
+        }
+
+        if we call it,
+
+        showMsg("Chan");
+
+        // Chan: Hello!
+
+        but then let's say if the user leave it blank
+
+        showMsg();
+
+        // undefined: Hello!
+
+        We want to set a default value for "from".
+
+        function showMsg(from = "anonymous") {
+            alert(from + ": Hello!");
+        }
+
+        but also this is possible
+
+        function showMsg(from = anotherFunction()) {
+            ...
+        }
+
+        the anotherFunction will run when the parameter is missing.
+
+    
