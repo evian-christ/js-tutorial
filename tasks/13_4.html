@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        function pow(x, n) {
+            let output = x;
+            while(n > 1) {
+                output *= x;
+                n--;
+            }
+
+            return output;
+        }
+
+        let x = prompt("x?", 0);
+        let n = prompt("n?", 0);
+
+        alert(pow(x,n));
+    </script>
+</body>
