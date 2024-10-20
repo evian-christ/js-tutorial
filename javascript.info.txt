@@ -555,4 +555,32 @@
 
         the anotherFunction will run when the parameter is missing.
 
-    
+14. Function expressions
+
+    Traditional way of "declaring" a function:
+        
+        function sayHi() {
+            alert("Hi");
+        }
+
+    Function expression:
+        
+        let sayHi = function() {
+            alert("Hi");
+        };
+
+        Because this is essentially an assignment, we call it "function expression".
+
+        FUNCTION IS A VALUE
+
+            function sayHi() {
+                alert("Hi");
+            }
+
+            alert(sayHi);
+
+        this works perfectly fine and prints Hi.
+        the last line of code does not run the function
+        because there are no parentheses after sayHi.
+
+        
