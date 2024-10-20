@@ -583,4 +583,13 @@
         the last line of code does not run the function
         because there are no parentheses after sayHi.
 
+            function sayHi() {
+                alert("Hi");
+            }
+
+            let func = sayHi;
+
+            func(); // "Hi"
+            sayHi(); // "Hi"
+
         
